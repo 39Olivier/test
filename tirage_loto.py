@@ -1,4 +1,5 @@
 import random
+import turtle
 
 b = list(range(1, 50))
 print(b)
@@ -11,4 +12,5 @@ print(b[:6])
 
 # comments
 
+print()
 
