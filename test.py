@@ -3,7 +3,6 @@ from turtle import *
 
 from random import randint
 
-alex = turtle.Turtle()
 speed(0)
 
 bgcolor('black')
@@ -11,9 +10,9 @@ bgcolor('black')
 x = 1
 
 while x < 400:
-    r = randint(0, 255)
-    g = randint(0, 255)
-    b = randint(0, 255)
+    r = randint(0, 255)  # makes variables r,g,b whose value is an integer,
+    g = randint(0, 255)  # which is between 0 and 255. It is random, and
+    b = randint(0, 255)  # changes every time the loop runs
 
     colormode(255)  # this is something that is irrelevant at this point
     # check the pythondocs link at the end for more info
